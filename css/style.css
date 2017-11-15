@@ -49,8 +49,6 @@ table {
 
 
 
-
-
 body {
   background-color: #D7C1C1;
   color: #510707;
@@ -122,4 +120,3 @@ a:link { color:#0070BB; } /* unvisited */
 a:visited { color:#166565; } /* visited */
 a:hover { color:#26CECE; } /* mouse over */
 a:active { color:#1FA5A5; } /* selected */
-  
