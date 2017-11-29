@@ -49,26 +49,16 @@ table {
 
 
 
+
 body {
-  background-color: #D7C1C1;
   color: #510707;
-  font size: 16px;
-  line-height: 75%;
+  font-size: 16px;
 }
 
-h1 {
-  font-size: 2em;
-}
-
-p {
-  font-size: 100%;
-}
-
-nav {
-  background-color: rgba(0,0,0,.5);
-  float: left;
-  position: fixed;
-  width: 100%;
+.medium-pic {
+	max-width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
 }
 
 .logo {
@@ -76,26 +66,55 @@ nav {
   width: 100px;
 }
 
-.large-pic {
-  width: 100%;
-}
-
-.medium-pic {
-  width: 70%;
-}
-
-.left, .right {
-  float: left;
-  width: 50%;
+.left {
+	float: left;
 }
 
 .right {
-  float: right;
+	float: right;
 }
 
-ul {
-  list-style-type: none;
-  float: right;
+figcaption {
+  font-size: 2em;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-family: Helvetica;
+	line-height: 100%;
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+	font-family: Helvetica;
+	line-height: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-size: 1.5em;
+	text-align: center;
+	font-family: Helvetica;
+	line-height: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+.story-text {
+	padding-top: 25px;
+	font-family: Helvetica;
+	padding-bottom: 50px;
+
+}
+
+nav {
+	background-color: #D7C1C1;
+  float: left;
+  position: fixed;
+  width: 100%;
 }
 
 li {
@@ -104,12 +123,12 @@ li {
 }
 
 article {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 75%;
 }
 
 a {
